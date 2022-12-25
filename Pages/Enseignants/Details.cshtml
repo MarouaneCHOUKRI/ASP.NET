@@ -1,0 +1,50 @@
+﻿@page
+@model Universite.Pages.Enseignants.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Enseignant</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Enseignant.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Enseignant.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Enseignant.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Enseignant.Prenom)
+        </dd>
+    </dl>
+</div>
+<div> 
+    <h4>UEs enseignées</h4> 
+    <table class="table"> 
+        <thead> 
+            <tr> 
+                <th> Numéro UE </th> 
+                <th> Intulé UE </th> 
+            </tr> 
+        </thead> 
+        <tbody> @foreach (var item in Model.Enseignant.LesEnseigner)
+            {
+                <tr> 
+                    <td> @Html.DisplayFor(modelItem => item.LUE.Numero) </td> 
+                    <td> @Html.DisplayFor(modelItem => item.LUE.Intitule) </td> 
+                </tr>
+            } 
+        </tbody>
+    </table> 
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Enseignant.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

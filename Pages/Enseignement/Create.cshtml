@@ -1,0 +1,42 @@
+﻿@page
+@model Universite.Pages.Enseignement.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Nouvel enseignement pour @Html.DisplayFor(model => model.Enseignant.NomComplet)</h4> <hr /> <a asp-page="./Index" asp-route-id="@Model.Enseignant.Id">Revenir à la liste des UEs</a>
+
+<div class="row"> 
+    <div class="col-md-4"> 
+        
+        <form method="post"> 
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div> 
+            
+            <input type="hidden" asp-for="Enseigner.LEnseignantID" value="@Model.Enseignant.Id" />
+            
+            <div class="form-group"> 
+                <label asp-for="Enseigner.LUEID" class="control-label"></label>
+                <select asp-for="Enseigner.LUEID" class="form-control" asp-items="ViewBag.LUEID"></select> 
+            </div> 
+            
+            <div class="form-group"> 
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-page="./Index" asp-route-id="@Model.Enseignant.Id">Retour à l'enseignant</a> 
+            </div> 
+        
+        </form> 
+    
+    </div> 
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

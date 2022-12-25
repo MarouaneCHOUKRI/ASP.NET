@@ -1,0 +1,36 @@
+﻿@page
+@model Universite.Pages.Enseignement.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Enseigner</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Enseigner.ID" />
+            <input type="hidden" asp-for="Enseigner.LEnseignantID" />
+            <div class="form-group">
+                <label asp-for="Enseigner.LUEID" class="control-label"></label>
+                <select asp-for="Enseigner.LUEID" class="form-control" asp-items="ViewBag.LUEID"></select>
+                <span asp-validation-for="Enseigner.LUEID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index" asp-route-id="@Model.Enseigner.LEnseignantID">Retour à l'enseignant</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

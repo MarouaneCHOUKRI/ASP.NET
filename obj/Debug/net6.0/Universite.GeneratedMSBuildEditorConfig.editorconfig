@@ -1,0 +1,156 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Universite
+build_property.RootNamespace = Universite
+build_property.ProjectDir = C:\Users\chouk\OneDrive\Bureau\ASP .NET - TP\Universite\Universite\Universite\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\chouk\OneDrive\Bureau\ASP .NET - TP\Universite\Universite\Universite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmFudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmFudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmFudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmFudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmVtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmVtZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignement/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmVtZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmVtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Enseignement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5zZWlnbmVtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Etudiants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXR1ZGlhbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Etudiants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXR1ZGlhbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Etudiants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXR1ZGlhbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Etudiants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXR1ZGlhbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Etudiants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXR1ZGlhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Formations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybWF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Formations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybWF0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Formations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybWF0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Formations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybWF0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Formations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybWF0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Notes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Ues/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Ues/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Ues/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Ues/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Ues/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chouk/OneDrive/Bureau/ASP .NET - TP/Universite/Universite/Universite/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-27sn5vd7mu

@@ -1,0 +1,79 @@
+﻿@page
+@model Universite.Pages.Notes.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="display: @Model.form1">
+
+    <h2>Saisie des Notes - Choisissez l'UE</h2>
+    <br />
+    <hr />
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+
+                    <label class="control-label">Nom UE</label><br /><br />
+                    <select class="form-control" asp-items="ViewBag.LUEID" name="query"></select><br />
+
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Charger les notes de cette UE" asp-page-handler="charge" />
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<div style="display: @Model.form2">
+
+    <h2>Saisie des Notes de l'UE @Model.titre</h2>
+    <a asp-page="./Index">Retour au choix de l'UE</a>
+    <br /><br />
+    <hr />
+
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input type="submit" value="Enregistrer les notes de cette UE" asp-page-handler="enregistre" />
+                            </th>
+                        </tr>
+                        <tr>
+                            <th> Nom étudiant </th>
+                            <th> Note /20 </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        @foreach (var item0 in Model.etudiant)
+                        {
+                            <tr><input type="hidden" value="@item0.Id" name="etudiantid" /></tr>
+                        }
+                        
+                        @foreach (var item in Model.lista)
+                        {
+                            <tr>
+                                <input type="hidden" value="@Model.ueid" name="ueid" />
+                                <td>@item.Key</td>
+                                <td> <input type="text" value="@item.Value" name="query"/></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,49 @@
+﻿@page
+@model Universite.Pages.Etudiants.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Etudiant</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.Prenom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant.Naissance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.Naissance)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant.NumeroEtudiant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.NumeroEtudiant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant.FormationSuivie)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.FormationSuivie.Intitule)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Etudiant?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
